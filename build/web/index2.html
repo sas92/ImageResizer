@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Tweet My Picture</title>
+</head>
+<body>
+<h2>Upload a picture</h2>
+<form action="demoServlet" method="post" enctype="multipart/form-data">
+File :
+<input type="file" name="myPic[]" accept="image/jpeg" multiple/><br><br>
+<input type="text" name="fname" placeholder="First name"/><br><br>
+<input type="text" name="lname" placeholder="Last name"/><br><br>
+<input type="submit" value="Upload Picture"/>
+</form>
+</html>
